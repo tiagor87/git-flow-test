@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 
 namespace Api
 {
+    /// <summary>
+    /// Simulando um hotfix.
+    /// </summary>
     public class Startup
     {
         public Startup(IConfiguration configuration)
