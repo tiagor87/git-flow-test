@@ -6,5 +6,7 @@ namespace Api.Controllers
     [Route("hello-world")]
     public class HelloWorldController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult HelloWorld([FromQuery] string name = "World") => Ok($"Hello {name}");
     }
 }
